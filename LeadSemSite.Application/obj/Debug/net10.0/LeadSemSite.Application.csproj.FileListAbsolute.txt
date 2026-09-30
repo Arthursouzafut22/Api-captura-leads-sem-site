@@ -1,0 +1,15 @@
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\bin\Debug\net10.0\LeadSemSite.Application.deps.json
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\bin\Debug\net10.0\LeadSemSite.Application.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\bin\Debug\net10.0\LeadSemSite.Application.pdb
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\bin\Debug\net10.0\LeadSemSite.Domain.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\bin\Debug\net10.0\LeadSemSite.Domain.pdb
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.csproj.AssemblyReference.cache
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.AssemblyInfoInputs.cache
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.AssemblyInfo.cs
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.csproj.CoreCompileInputs.cache
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemS.A4F74BF2.Up2Date
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\refint\LeadSemSite.Application.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\LeadSemSite.Application.pdb
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Application\obj\Debug\net10.0\ref\LeadSemSite.Application.dll

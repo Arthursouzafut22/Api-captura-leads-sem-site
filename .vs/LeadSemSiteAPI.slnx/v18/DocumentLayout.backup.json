@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsiteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|solutionrelative:leadsemsiteapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|solutionrelative:leadsemsite.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsiteapi\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|solutionrelative:leadsemsiteapi\\controllers\\leadscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsiteapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9AB18A61-C559-26D8-20AF-CA776387BB3C}|LeadSemSiteAPI\\LeadSemSiteAPI.csproj|solutionrelative:leadsemsiteapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.infrastructure\\externalservices\\geocoding\\nominatimclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|solutionrelative:leadsemsite.infrastructure\\externalservices\\geocoding\\nominatimclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.application\\services\\serperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|solutionrelative:leadsemsite.application\\services\\serperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.application\\interfaces\\iserperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|solutionrelative:leadsemsite.application\\interfaces\\iserperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.infrastructure\\externalservices\\serper\\serperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDAF27C4-C43F-42E4-AC91-E0F5864655B4}|LeadSemSite.Infrastructure\\LeadSemSite.Infrastructure.csproj|solutionrelative:leadsemsite.infrastructure\\externalservices\\serper\\serperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.application\\interfaces\\igeocodingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|solutionrelative:leadsemsite.application\\interfaces\\igeocodingclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.application\\interfaces\\iserperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{641F2748-D7A1-4034-BAF1-DFB5EDEBDDCC}|LeadSemSite.Application\\LeadSemSite.Application.csproj|solutionrelative:leadsemsite.application\\interfaces\\iserperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DFDA6A-641C-44D9-802A-EAA687F3D6CD}|LeadSemSite.Domain\\LeadSemSite.Domain.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.domain\\valueobjects\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DFDA6A-641C-44D9-802A-EAA687F3D6CD}|LeadSemSite.Domain\\LeadSemSite.Domain.csproj|solutionrelative:leadsemsite.domain\\valueobjects\\coordenada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4DFDA6A-641C-44D9-802A-EAA687F3D6CD}|LeadSemSite.Domain\\LeadSemSite.Domain.csproj|c:\\users\\55319\\documents\\leadsemsiteapi\\leadsemsite.domain\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4DFDA6A-641C-44D9-802A-EAA687F3D6CD}|LeadSemSite.Domain\\LeadSemSite.Domain.csproj|solutionrelative:leadsemsite.domain\\models\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeadsController.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\Controllers\\LeadsController.cs",
+              "RelativeDocumentMoniker": "LeadSemSiteAPI\\Controllers\\LeadsController.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\Controllers\\LeadsController.cs",
+              "RelativeToolTip": "LeadSemSiteAPI\\Controllers\\LeadsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:33:53.785Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "LeadSemSiteAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\appsettings.json",
+              "RelativeToolTip": "LeadSemSiteAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-30T00:05:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LeadSemSiteAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSiteAPI\\Program.cs*",
+              "RelativeToolTip": "LeadSemSiteAPI\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T00:01:17.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "LeadSemSite.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:55:37.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NominatimClient.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\ExternalServices\\Geocoding\\NominatimClient.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Infrastructure\\ExternalServices\\Geocoding\\NominatimClient.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\ExternalServices\\Geocoding\\NominatimClient.cs",
+              "RelativeToolTip": "LeadSemSite.Infrastructure\\ExternalServices\\Geocoding\\NominatimClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:49:16.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SerperService.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Services\\SerperService.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Application\\Services\\SerperService.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Services\\SerperService.cs",
+              "RelativeToolTip": "LeadSemSite.Application\\Services\\SerperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:39:38.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGeocodingClient.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\IGeocodingClient.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Application\\Interfaces\\IGeocodingClient.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\IGeocodingClient.cs",
+              "RelativeToolTip": "LeadSemSite.Application\\Interfaces\\IGeocodingClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:38:12.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Coordenada.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Domain\\ValueObjects\\Coordenada.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Domain\\ValueObjects\\Coordenada.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Domain\\ValueObjects\\Coordenada.cs",
+              "RelativeToolTip": "LeadSemSite.Domain\\ValueObjects\\Coordenada.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T23:34:07.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISerperClient.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\ISerperClient.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Application\\Interfaces\\ISerperClient.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\ISerperClient.cs",
+              "RelativeToolTip": "LeadSemSite.Application\\Interfaces\\ISerperClient.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T20:02:49.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ISerperService.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\ISerperService.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Application\\Interfaces\\ISerperService.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Application\\Interfaces\\ISerperService.cs",
+              "RelativeToolTip": "LeadSemSite.Application\\Interfaces\\ISerperService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:52:34.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SerperClient.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\ExternalServices\\Serper\\SerperClient.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Infrastructure\\ExternalServices\\Serper\\SerperClient.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Infrastructure\\ExternalServices\\Serper\\SerperClient.cs",
+              "RelativeToolTip": "LeadSemSite.Infrastructure\\ExternalServices\\Serper\\SerperClient.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T19:42:24.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Domain\\Models\\Pessoa.cs",
+              "RelativeDocumentMoniker": "LeadSemSite.Domain\\Models\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\55319\\Documents\\LeadSemSiteAPI\\LeadSemSite.Domain\\Models\\Pessoa.cs",
+              "RelativeToolTip": "LeadSemSite.Domain\\Models\\Pessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T20:11:35.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

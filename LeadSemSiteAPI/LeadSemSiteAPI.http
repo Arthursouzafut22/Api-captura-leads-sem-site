@@ -1,0 +1,6 @@
+@LeadSemSiteAPI_HostAddress = http://localhost:5113
+
+GET {{LeadSemSiteAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

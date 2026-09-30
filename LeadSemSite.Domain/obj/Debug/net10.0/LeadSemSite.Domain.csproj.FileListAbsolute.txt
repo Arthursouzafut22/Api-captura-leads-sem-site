@@ -1,0 +1,12 @@
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\bin\Debug\net10.0\LeadSemSite.Domain.deps.json
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\bin\Debug\net10.0\LeadSemSite.Domain.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\bin\Debug\net10.0\LeadSemSite.Domain.pdb
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.AssemblyInfoInputs.cache
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.AssemblyInfo.cs
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.csproj.CoreCompileInputs.cache
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\refint\LeadSemSite.Domain.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.pdb
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\ref\LeadSemSite.Domain.dll
+C:\Users\55319\Documents\LeadSemSiteAPI\LeadSemSite.Domain\obj\Debug\net10.0\LeadSemSite.Domain.csproj.AssemblyReference.cache

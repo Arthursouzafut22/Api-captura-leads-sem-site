@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="LeadSemSite.Application/LeadSemSite.Application.csproj" Id="641f2748-d7a1-4034-baf1-dfb5edebddcc" />
+  <Project Path="LeadSemSite.Domain/LeadSemSite.Domain.csproj" Id="d4dfda6a-641c-44d9-802a-eaa687f3d6cd" />
+  <Project Path="LeadSemSite.Infrastructure/LeadSemSite.Infrastructure.csproj" Id="bdaf27c4-c43f-42e4-ac91-e0f5864655b4" />
+  <Project Path="LeadSemSiteAPI/LeadSemSiteAPI.csproj" />
+</Solution>
