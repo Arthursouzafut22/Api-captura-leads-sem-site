@@ -14,14 +14,17 @@ namespace LeadSemSite.Application.SerperService
             _geocoding = geocoding;
         }
 
-        public async Task<string?> BuscarLeadsAsync(string q, string cidade, int zoom, CancellationToken ct = default)
+        public async Task<IReadOnlyList<Lead>?> BuscarLeadsAsync(
+            string q, string cidade, int zoom, bool apenasSemSite, CancellationToken ct = default)
         {
             var coord = await _geocoding.ObterCoordenadasAsync(cidade, ct);
             if (coord is null) return null;
 
-            return await _serper.BuscarMapsAsync(q, coord.Value, zoom, ct);
+            var leads = await _serper.BuscarMapsAsync(q, coord.Value, zoom, ct);
+
+            return apenasSemSite
+                ? leads.Where(l => !l.PossuiSite).ToList()
+                : leads;
         }
-
-
     }
 }
