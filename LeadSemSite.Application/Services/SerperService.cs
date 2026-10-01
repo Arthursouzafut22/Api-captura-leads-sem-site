@@ -1,6 +1,5 @@
 ﻿using LeadSemSite.Application.DTOS;
 using LeadSemSite.Application.Interfaces;
-using LeadSemSite.Domain.Models;
 
 namespace LeadSemSite.Application.SerperService
 {
@@ -16,16 +15,19 @@ namespace LeadSemSite.Application.SerperService
         }
 
         public async Task<LeadsResponse> BuscarLeadsAsync(
-         string q, string cidade, int zoom, bool apenasSemSite, CancellationToken ct = default)
+         string q, string cidade, int zoom, bool apenasSemSite, int pagina, CancellationToken ct = default)
         {
             if (string.IsNullOrWhiteSpace(q) || string.IsNullOrWhiteSpace(cidade))
                 throw new ArgumentException("Informe q e cidade.");
+
+            if (pagina < 1)
+                throw new ArgumentException("A página deve ser maior ou igual a 1.");
 
             var coord = await _geocoding.ObterCoordenadasAsync(cidade, ct);
             if (coord is null)
                 throw new KeyNotFoundException("Cidade não encontrada.");
 
-            var leads = await _serper.BuscarMapsAsync(q, coord.Value, zoom, ct);
+            var leads = await _serper.BuscarMapsAsync(q, coord.Value, zoom, pagina, ct);
 
             var dtos = leads
                 .Where(l => !apenasSemSite || !l.PossuiSite)
@@ -35,7 +37,9 @@ namespace LeadSemSite.Application.SerperService
                     l.Latitude, l.Longitude, l.PossuiSite))
                 .ToList();
 
-            return new LeadsResponse(cidade, q, dtos.Count, dtos);
+            var temMaisPaginas = leads.Count > 0;
+
+            return new LeadsResponse(cidade, q, pagina, temMaisPaginas, dtos.Count, dtos);
         }
     }
 }

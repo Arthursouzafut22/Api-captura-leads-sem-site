@@ -14,11 +14,12 @@ namespace LeadSemSite.Infrastructure.ExternalServices.Serper
         private readonly HttpClient _http;
         public SerperClient(HttpClient http) => _http = http;
 
-        public async Task<IReadOnlyList<Lead>> BuscarMapsAsync(string q, Coordenada coord, int zoom, CancellationToken ct = default)
+        public async Task<IReadOnlyList<Lead>> BuscarMapsAsync(
+            string q, Coordenada coord, int zoom, int pagina, CancellationToken ct = default)
         {
             var ll = string.Create(CultureInfo.InvariantCulture, $"@{coord.Latitude},{coord.Longitude},{zoom}z");
 
-            var body = JsonSerializer.Serialize(new { q, hl = "pt-br", ll });
+            var body = JsonSerializer.Serialize(new { q, hl = "pt-br", ll, page = pagina });
             using var content = new StringContent(body, Encoding.UTF8, "application/json");
 
             using var resp = await _http.PostAsync("maps", content, ct);

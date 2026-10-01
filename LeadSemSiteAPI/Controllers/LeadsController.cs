@@ -16,11 +16,12 @@ namespace LeadSemSite.Api.Controllers
         [FromQuery] string cidade,
         [FromQuery] int zoom = 13,
         [FromQuery] bool apenasSemSite = true,
+        [FromQuery] int pagina = 1,
         CancellationToken ct = default)
         {
             try
             {
-                var resposta = await _service.BuscarLeadsAsync(q!, cidade!, zoom, apenasSemSite, ct);
+                var resposta = await _service.BuscarLeadsAsync(q!, cidade!, zoom, apenasSemSite, pagina, ct);
                 return Ok(resposta);
             }
             catch (ArgumentException ex)
