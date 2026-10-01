@@ -32,7 +32,7 @@ namespace LeadSemSite.Infrastructure.ExternalServices.Serper
                 Nome = p.Title ?? "",
                 Endereco = p.Address,
                 Telefone = p.PhoneNumber,
-                Categoria = p.Category,
+                Categoria = p.Type,
                 Avaliacao = p.Rating,
                 TotalAvaliacoes = p.RatingCount,
                 Latitude = p.Latitude,

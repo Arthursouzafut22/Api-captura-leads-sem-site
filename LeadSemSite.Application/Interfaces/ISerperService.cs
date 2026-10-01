@@ -1,14 +1,14 @@
-﻿using LeadSemSite.Domain.Models;
+﻿using LeadSemSite.Application.DTOS;
 
 namespace LeadSemSite.Application.Interfaces
 {
     public interface ISerperService
     {
-        Task<IReadOnlyList<Lead>?> BuscarLeadsAsync(
-        string q,
-        string cidade,
-        int zoom,
-        bool apenasSemSite,
+        Task<LeadsResponse> BuscarLeadsAsync(
+        string q, 
+        string cidade, 
+        int zoom, bool 
+        apenasSemSite, 
         CancellationToken ct = default);
     }
 }
