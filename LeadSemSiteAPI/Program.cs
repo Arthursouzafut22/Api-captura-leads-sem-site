@@ -8,7 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddScoped<ISerperService, SerperService>();
-builder.Services.AddOpenApi();
 
 builder.Services.AddOpenApi(options =>
 {
@@ -34,17 +33,24 @@ builder.Services.AddOpenApi(options =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+var swaggerHabilitado = app.Environment.IsDevelopment()
+    || builder.Configuration.GetValue<bool>("Swagger:Enabled");
+
+if (swaggerHabilitado)
 {
-    app.MapOpenApi();                    
-    app.UseSwaggerUI(options =>           
+    app.MapOpenApi();
+    app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/openapi/v1.json", "LeadSemSite API v1");
-        options.RoutePrefix = "swagger";  
+        options.RoutePrefix = "swagger";
     });
 }
 
-app.UseHttpsRedirection();
+if (!app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
+
 app.UseAuthorization();
 app.MapControllers();
 
