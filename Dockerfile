@@ -1,5 +1,5 @@
 # ---------- Build ----------
-FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 
 # Copia só os .csproj primeiro, para aproveitar o cache do restore
@@ -15,10 +15,10 @@ COPY . .
 RUN dotnet publish LeadSemSiteAPI/LeadSemSiteAPI.csproj -c Release -o /app/publish --no-restore
 
 # ---------- Runtime ----------
-FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
 
 # A Render injeta a variável PORT; o ASP.NET precisa escutar nela
 ENV ASPNETCORE_ENVIRONMENT=Production
-CMD ["sh", "-c", "ASPNETCORE_URLS=http://+:${PORT:-8080} dotnet LeadSemSiteAPI.dll"]
+CMD ["sh", "-c", "ASPNETCORE_URLS=http://+:${PORT:-8080} exec dotnet LeadSemSiteAPI.dll"]
