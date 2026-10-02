@@ -1,9 +1,34 @@
 using LeadSemSite.Application.Interfaces;
 using LeadSemSite.Application.SerperService;
 using LeadSemSite.Infrastructure;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.OpenApi;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+    options.KnownIPNetworks.Clear();
+    options.KnownProxies.Clear();
+});
+
+var origensPermitidas = builder.Configuration
+    .GetSection("Cors:AllowedOrigins")
+    .Get<string[]>() ?? Array.Empty<string>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Frontend", policy =>
+    {
+        if (origensPermitidas.Length > 0)
+        {
+            policy.WithOrigins(origensPermitidas)
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        }
+    });
+});
 
 builder.Services.AddControllers();
 builder.Services.AddInfrastructure(builder.Configuration);
@@ -33,6 +58,8 @@ builder.Services.AddOpenApi(options =>
 
 var app = builder.Build();
 
+app.UseForwardedHeaders();
+
 var swaggerHabilitado = app.Environment.IsDevelopment()
     || builder.Configuration.GetValue<bool>("Swagger:Enabled");
 
@@ -51,6 +78,7 @@ if (!app.Environment.IsProduction())
     app.UseHttpsRedirection();
 }
 
+app.UseCors("Frontend");
 app.UseAuthorization();
 app.MapControllers();
 
