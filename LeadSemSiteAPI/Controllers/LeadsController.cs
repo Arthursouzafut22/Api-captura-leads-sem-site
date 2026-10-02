@@ -1,5 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LeadSemSite.Application.DTOS;
 using LeadSemSite.Application.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace LeadSemSite.Api.Controllers
 {
@@ -9,6 +10,18 @@ namespace LeadSemSite.Api.Controllers
     {
         private readonly ISerperService _service;
         public LeadsController(ISerperService service) => _service = service;
+
+        /// <summary>Busca empresas no Google Maps por termo e cidade.</summary>
+        /// <param name="q">Termo da busca (ex.: dentistas).</param>
+        /// <param name="cidade">Cidade selecionada (ex.: Belo Horizonte, MG).</param>
+        /// <param name="zoom">Zoom do mapa, de 1 a 21. Padrão 13.</param>
+        /// <param name="apenasSemSite">Se true, retorna só empresas sem site.</param>
+        /// <param name="pagina">Número da página, a partir de 1.</param>
+        [HttpGet]
+        [ProducesResponseType(typeof(LeadsResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status502BadGateway)]
 
         [HttpGet("consultar-empresas-sem-site")]
         public async Task<IActionResult> BuscarEmpresasSemSite(
