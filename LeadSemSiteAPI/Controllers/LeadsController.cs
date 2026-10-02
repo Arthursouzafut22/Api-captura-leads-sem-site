@@ -17,13 +17,13 @@ namespace LeadSemSite.Api.Controllers
         /// <param name="zoom">Zoom do mapa, de 1 a 21. Padrão 13.</param>
         /// <param name="apenasSemSite">Se true, retorna só empresas sem site.</param>
         /// <param name="pagina">Número da página, a partir de 1.</param>
-        [HttpGet]
+        
+        [HttpGet("consultar-empresas-sem-site")]
         [ProducesResponseType(typeof(LeadsResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status502BadGateway)]
 
-        [HttpGet("consultar-empresas-sem-site")]
         public async Task<IActionResult> BuscarEmpresasSemSite(
         [FromQuery] string q,
         [FromQuery] string cidade,
