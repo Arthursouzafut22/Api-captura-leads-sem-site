@@ -93,7 +93,7 @@ API para encontrar empresas sem site no Google Maps. Basta informar um termo de 
 
 <p>
   <a href="https://github.com/Arthursouzafut22"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/arthursouza"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="inkedin.com/in/arthur-souza-588168256/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
 ---
